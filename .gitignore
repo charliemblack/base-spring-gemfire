@@ -1,5 +1,6 @@
 .idea/libraries/*
 *.class
+.DS_Store
 
 # Package Files #
 *.jar
