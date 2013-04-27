@@ -2,8 +2,6 @@ package demo.gemfire;
 
 import com.gemstone.gemfire.cache.PartitionResolver;
 import com.gemstone.gemfire.pdx.PdxInstance;
-import demo.vmware.finra.data.JoinKeyLandingZone;
-import demo.vmware.finra.data.LandingZoneKey;
 
 import java.util.Collection;
 import java.util.LinkedList;

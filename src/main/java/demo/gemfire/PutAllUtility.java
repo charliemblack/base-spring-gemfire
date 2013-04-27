@@ -23,20 +23,6 @@ public class PutAllUtility implements Serializable {
     private AtomicLong count = new AtomicLong(0);
     private boolean hasProblem = false;
 
-    public void setMetricFrequency(final long timeWindow) {
-        new Timer().scheduleAtFixedRate(new TimerTask() {
-            long lastCount = 0;
-
-            @Override
-            public void run() {
-                long currentCount = count.get();
-                   long curr_count = (currentCount - lastCount);
-
-                System.out.println(new Date().toString() + " number of items " + curr_count + " per second = " + (curr_count / (timeWindow /1000.0)));
-                lastCount = currentCount;
-            }
-        }, timeWindow, timeWindow);
-    }
 
     public void partitionPuts(ClientMetadataService clientMetadataService, Region region, Map fromData) {
         Map<Object, Map> map = splitByBucket(clientMetadataService, region, fromData);

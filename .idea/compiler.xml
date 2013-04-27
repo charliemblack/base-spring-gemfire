@@ -23,10 +23,12 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="NokiaSiemensNetworks" />
+        <module name="SpringGemFire" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="NokiaSiemensNetworks" target="1.6" />
+      <module name="SpringGemFire" target="1.6" />
     </bytecodeTargetLevel>
   </component>
 </project>

@@ -2,19 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e9c50297-b106-4718-ad30-9532d8c014cb" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/spring-gemfire.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/demo/gemfire/nsn/HelloApp.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/demo/gemfire/nsn/HelloService.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/demo/gemfire/PutAllUtility.java" afterPath="$PROJECT_DIR$/src/main/java/demo/gemfire/PutAllUtility.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/demo/gemfire/nsn/SpringAppTests.java" afterPath="$PROJECT_DIR$/src/test/java/demo/gemfire/nsn/SpringAppTests.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpringGemFire.iml" afterPath="$PROJECT_DIR$/SpringGemFire.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/demo/gemfire/ToolBox.java" afterPath="$PROJECT_DIR$/src/main/java/demo/gemfire/ToolBox.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="NokiaSiemensNetworks.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/pom.xml" changelist="e9c50297-b106-4718-ad30-9532d8c014cb" time="1367014130256" ignored="false" />
-    <file path="/Dummy.txt" changelist="e9c50297-b106-4718-ad30-9532d8c014cb" time="1367030686487" ignored="false" />
-    <file path="/.gitignore" changelist="e9c50297-b106-4718-ad30-9532d8c014cb" time="1367030724941" ignored="false" />
+    <file path="/Dummy.txt" changelist="e9c50297-b106-4718-ad30-9532d8c014cb" time="1367034927559" ignored="false" />
+    <file path="/.gitignore" changelist="e9c50297-b106-4718-ad30-9532d8c014cb" time="1367034960033" ignored="false" />
     <file path="$PROJECT_DIR$/../base-spring-gemfire/src/main/resources/spring-gemfire.xml" changelist="e9c50297-b106-4718-ad30-9532d8c014cb" time="1367029440776" ignored="false" />
     <file path="/spring-gemfire.xml" changelist="e9c50297-b106-4718-ad30-9532d8c014cb" time="1367030383265" ignored="false" />
+    <file path="/SpringAppTests.java" changelist="e9c50297-b106-4718-ad30-9532d8c014cb" time="1367034857145" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +90,7 @@
       <file leaf-file-name="spring-gemfire.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/spring-gemfire.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="0" selection-start="1583" selection-end="1583" vertical-scroll-proportion="-15.0">
+            <state line="26" column="40" selection-start="1632" selection-end="1640" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -95,8 +99,10 @@
       <file leaf-file-name="SpringAppTests.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/demo/gemfire/nsn/SpringAppTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="13" selection-start="418" selection-end="418" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="23" column="43" selection-start="620" selection-end="620" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -104,7 +110,7 @@
       <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="0" selection-start="26" selection-end="26" vertical-scroll-proportion="0.036764707">
+            <state line="3" column="6" selection-start="42" selection-end="42" vertical-scroll-proportion="0.08737864">
               <folding />
             </state>
           </provider>
@@ -122,7 +128,7 @@
       <file leaf-file-name="PutAllUtility.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/demo/gemfire/PutAllUtility.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="13" selection-start="659" selection-end="659" vertical-scroll-proportion="0.0">
+            <state line="25" column="0" selection-start="899" selection-end="899" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -140,7 +146,7 @@
       <file leaf-file-name="ToolBox.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/demo/gemfire/ToolBox.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="13" selection-start="337" selection-end="337" vertical-scroll-proportion="0.0">
+            <state line="4" column="0" selection-start="121" selection-end="121" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -165,10 +171,11 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/demo/gemfire/PutAllUtility.java" />
         <option value="$PROJECT_DIR$/src/main/java/demo/gemfire/Server.java" />
-        <option value="$PROJECT_DIR$/src/main/java/demo/gemfire/ToolBox.java" />
         <option value="$PROJECT_DIR$/src/main/resources/spring-gemfire.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/demo/gemfire/ToolBox.java" />
+        <option value="$PROJECT_DIR$/src/main/java/demo/gemfire/PutAllUtility.java" />
+        <option value="$PROJECT_DIR$/src/test/java/demo/gemfire/nsn/SpringAppTests.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
@@ -179,6 +186,34 @@
         <option name="importAutomatically" value="true" />
       </MavenImportingSettings>
     </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="SpringGemFire" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="SpringGemFire" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Lifecycle" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
+        </PATH_ELEMENT>
+      </PATH>
+    </treeState>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
@@ -311,23 +346,46 @@
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
-    <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="options.searchVisible" value="true" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RunManager" selected="Application.HelloApp">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
       <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
       <method />
     </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
@@ -463,13 +521,14 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32938388" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32864138" sideWeight="0.6706161" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22215423" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22215423" sideWeight="0.6706161" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32938388" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -519,7 +578,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" />
+    <option name="LAST_COMMIT_MESSAGE" value="Should be good for now" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -533,6 +592,7 @@
     <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+    <MESSAGE value="Should be good for now" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -587,30 +647,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/demo/gemfire/Server.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="13" selection-start="237" selection-end="237" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/demo/gemfire/ToolBox.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="13" selection-start="337" selection-end="337" vertical-scroll-proportion="0.0">
+        <state line="4" column="0" selection-start="121" selection-end="121" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/demo/gemfire/PutAllUtility.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="13" selection-start="659" selection-end="659" vertical-scroll-proportion="0.0">
+        <state line="25" column="0" selection-start="899" selection-end="899" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-gemfire.xml">
+    <entry file="file://$PROJECT_DIR$/src/test/java/demo/gemfire/nsn/SpringAppTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="0" selection-start="1583" selection-end="1583" vertical-scroll-proportion="-15.0">
+        <state line="23" column="43" selection-start="620" selection-end="620" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/demo/gemfire/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="13" selection-start="237" selection-end="237" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -622,16 +684,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/demo/gemfire/nsn/SpringAppTests.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-gemfire.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="13" selection-start="418" selection-end="418" vertical-scroll-proportion="0.0">
+        <state line="26" column="40" selection-start="1632" selection-end="1640" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="26" selection-end="26" vertical-scroll-proportion="0.036764707">
+        <state line="3" column="6" selection-start="42" selection-end="42" vertical-scroll-proportion="0.08737864">
           <folding />
         </state>
       </provider>
