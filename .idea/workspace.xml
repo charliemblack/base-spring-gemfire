@@ -1,16 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e9c50297-b106-4718-ad30-9532d8c014cb" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/deploy.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/deploy_internal.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/gather_dev_info.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/internal_gather_dev_info.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/pkill_all.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/validator.sh" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpringGemFire.iml" afterPath="$PROJECT_DIR$/SpringGemFire.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+    <list default="true" id="e9c50297-b106-4718-ad30-9532d8c014cb" name="Default" comment="Should be good for now&#10;">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/env.sh" afterPath="$PROJECT_DIR$/bin/env.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/spring-gemfire.xml" afterPath="$PROJECT_DIR$/src/main/resources/spring-gemfire.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/start_data_node.sh" afterPath="$PROJECT_DIR$/bin/start_data_node.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/start_gemfire.sh" afterPath="$PROJECT_DIR$/bin/start_gemfire.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/start_locator.sh" afterPath="$PROJECT_DIR$/bin/start_locator.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/stop_gemfire.sh" afterPath="$PROJECT_DIR$/bin/stop_gemfire.sh" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="NokiaSiemensNetworks.iws" />
@@ -75,10 +72,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="spring-config.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/spring-config.xml">
+      <file leaf-file-name="start_gemfire.sh" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bin/start_gemfire.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
+            <state line="5" column="2" selection-start="44" selection-end="44" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
               <folding />
             </state>
           </provider>
@@ -87,36 +84,43 @@
       <file leaf-file-name="spring-gemfire.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/spring-gemfire.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="47" selection-start="1393" selection-end="1410" vertical-scroll-proportion="0.5898876" vertical-offset="0" max-vertical-offset="570">
+            <state line="27" column="5" selection-start="1657" selection-end="1657" vertical-scroll-proportion="0.66292137" vertical-offset="51" max-vertical-offset="585">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SpringAppTests.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/demo/gemfire/nsn/SpringAppTests.java">
+      <file leaf-file-name="env.sh" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bin/env.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="13" selection-start="422" selection-end="422" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="495">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="6" selection-start="42" selection-end="42" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="225">
+            <state line="4" column="21" selection-start="64" selection-end="78" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
+      <file leaf-file-name="start_data_node.sh" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bin/start_data_node.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="0" selection-start="93" selection-end="93" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="150">
+            <state line="32" column="64" selection-start="1060" selection-end="1060" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="600">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="start_locator.sh" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bin/start_locator.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="118" selection-start="356" selection-end="356" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="stop_gemfire.sh" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bin/stop_gemfire.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="42" selection-start="167" selection-end="172" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
               <folding />
             </state>
           </provider>
@@ -134,7 +138,7 @@
       <file leaf-file-name="Server.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/demo/gemfire/Server.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="13" selection-start="237" selection-end="237" vertical-scroll-proportion="-4.2" vertical-offset="0" max-vertical-offset="345">
+            <state line="0" column="20" selection-start="8" selection-end="20" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
               <folding />
             </state>
           </provider>
@@ -153,7 +157,9 @@
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state line="47" column="44" selection-start="1959" selection-end="1959" vertical-scroll-proportion="0.0" vertical-offset="216" max-vertical-offset="1275">
-              <folding />
+              <folding>
+                <marker date="1386268581000" expanded="true" signature="1813:1980" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -177,12 +183,17 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/demo/gemfire/Server.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/spring-gemfire.xml" />
         <option value="$PROJECT_DIR$/src/main/java/demo/gemfire/ToolBox.java" />
         <option value="$PROJECT_DIR$/src/main/java/demo/gemfire/PutAllUtility.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/test/java/demo/gemfire/nsn/SpringAppTests.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/bin/env.sh" />
+        <option value="$PROJECT_DIR$/bin/start_gemfire.sh" />
+        <option value="$PROJECT_DIR$/bin/start_data_node.sh" />
+        <option value="$PROJECT_DIR$/bin/start_locator.sh" />
+        <option value="$PROJECT_DIR$/bin/stop_gemfire.sh" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring-gemfire.xml" />
       </list>
     </option>
   </component>
@@ -240,6 +251,28 @@
         <PATH_ELEMENT>
           <option name="myItemId" value="SpringGemFire" />
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Plugins" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$PluginsNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="SpringGemFire" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Plugins" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$PluginsNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="dependency" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$PluginNode" />
         </PATH_ELEMENT>
       </PATH>
       <PATH>
@@ -375,14 +408,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gemfire" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -704,12 +729,17 @@
       <updated>1367013860317</updated>
       <workItem from="1386089137940" duration="528000" />
       <workItem from="1386096810231" duration="56000" />
-      <workItem from="1386096883091" duration="1456000" />
+      <workItem from="1386096883091" duration="4364000" />
     </task>
+    <task id="LOCAL-00001" summary="Should be good for now">
+      <created>1386268716725</created>
+      <updated>1386268716725</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2040000" />
+    <option name="totallyTimeSpent" value="4948000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1680" height="964" extended-state="0" />
@@ -720,6 +750,7 @@
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32912844" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -729,19 +760,18 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32912844" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17155068" sideWeight="0.6706161" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22161172" sideWeight="0.6706161" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32912844" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22161172" sideWeight="0.6706161" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32912844" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32938388" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -758,7 +788,8 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="Should be good for now" />
-    <option name="LAST_COMMIT_MESSAGE" value="Should be good for now" />
+    <MESSAGE value="Should be good for now&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Should be good for now&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -781,9 +812,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/demo/gemfire/nsn/SpringAppTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="23" column="26" selection-start="620" selection-end="620" vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="495">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -839,9 +868,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/demo/gemfire/nsn/SpringAppTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="23" column="26" selection-start="620" selection-end="620" vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="495">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -897,9 +924,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/demo/gemfire/nsn/SpringAppTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="23" column="26" selection-start="620" selection-end="620" vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="495">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -938,26 +963,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bin/start_data_node.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/start_gemfire.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/start_locator.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/stop_gemfire.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="0" selection-start="93" selection-end="93" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="150">
@@ -968,13 +973,6 @@
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="6" selection-start="42" selection-end="42" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/demo/gemfire/Server.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="13" selection-start="237" selection-end="237" vertical-scroll-proportion="-4.2" vertical-offset="0" max-vertical-offset="345">
           <folding />
         </state>
       </provider>
@@ -1003,22 +1001,64 @@
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="47" column="44" selection-start="1959" selection-end="1959" vertical-scroll-proportion="0.0" vertical-offset="216" max-vertical-offset="1275">
-          <folding />
+          <folding>
+            <marker date="1386268581000" expanded="true" signature="1813:1980" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/demo/gemfire/nsn/SpringAppTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="13" selection-start="422" selection-end="422" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="495">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/env.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="21" selection-start="64" selection-end="78" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/demo/gemfire/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="20" selection-start="8" selection-end="20" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/start_data_node.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="64" selection-start="1060" selection-end="1060" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="600">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/start_locator.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="118" selection-start="356" selection-end="356" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/stop_gemfire.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="42" selection-start="167" selection-end="172" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/start_gemfire.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="2" selection-start="44" selection-end="44" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/spring-gemfire.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="47" selection-start="1393" selection-end="1410" vertical-scroll-proportion="0.5898876" vertical-offset="0" max-vertical-offset="570">
+        <state line="27" column="5" selection-start="1657" selection-end="1657" vertical-scroll-proportion="0.66292137" vertical-offset="51" max-vertical-offset="585">
           <folding />
         </state>
       </provider>
