@@ -1,7 +1,10 @@
-.idea/libraries/*
+.idea
 *.class
 .DS_Store
 target
+data
+SpringGemFire.iml
+bin/logs
 
 # Package Files #
 *.jar

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xmlns:gfe="http://www.springframework.org/schema/gemfire"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
+		http://www.springframework.org/schema/gemfire http://www.springframework.org/schema/gemfire/spring-gemfire.xsd">
+    <util:properties id="props">
+        <prop key="mcast-port">0</prop>
+        <prop key="log-level">config</prop>
+        <prop key="log-file">server.log</prop>
+        <prop key="log-file-size-limit">10</prop>
+        <prop key="log-disk-space-limit">100</prop>
+    </util:properties>
+    <context:component-scan base-package="demo.gemfire"/>
+
+    <gfe:client-cache properties-ref="props"/>
+
+    <gfe:pool id="DEFAULT" subscription-enabled="true">
+        <gfe:locator host="localhost" port="10334"/>
+    </gfe:pool>
+
+    <bean id="cacheSerializer" class="com.gemstone.gemfire.pdx.ReflectionBasedAutoSerializer">
+        <constructor-arg ref="serializedClasses"></constructor-arg>
+    </bean>
+
+    <util:list id="serializedClasses" list-class="java.util.ArrayList" value-type="java.lang.String">
+        <value>demo.gemfire.*</value>
+    </util:list>
+    <gfe:client-region id="TestData" shortcut="PROXY"/>
+
+    <bean id="ClientBean" class="demo.gemfire.Client"/>
+</beans>
+
+

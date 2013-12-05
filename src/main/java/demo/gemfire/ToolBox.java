@@ -7,9 +7,6 @@ import java.util.Collection;
 import java.util.LinkedList;
 import java.util.List;
 
-/**
- * User: cblack
- */
 public class ToolBox {
 
     public static Collection<PartitionResolver>[] hashKeys(List<PartitionResolver> list, int numBukets) {

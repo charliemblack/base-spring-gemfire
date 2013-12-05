@@ -30,5 +30,5 @@ options="$options -XX:+AggressiveOpts"
 #options="$options -Djava.util.logging.config.file=$TEST_CASE_HOME/resources/logging.properties"
 
 pushd  $TEST_CASE_HOME/data/server$1 > /dev/null 2>&1
-java $options demo.gemfire.Server file:$TEST_CASE_HOME/src/main/resources/spring-gemfire.xml > start_up.log 2>&1  &
+java $options demo.gemfire.Server > start_up.log 2>&1  &
 popd > /dev/null 2>&1
